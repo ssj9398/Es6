@@ -8,6 +8,6 @@
 
 3. [모든 개발자를 위한 http 웹 기본 지식]()
 
-4. [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술]()
+4. [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://github.com/ssj9398/SpringPractice/tree/main/mvc%201%ED%8E%B8/servlet)
 
 5. [스프링 MVC 2편 - 백엔드 웹 개발 핵심 기술]()
