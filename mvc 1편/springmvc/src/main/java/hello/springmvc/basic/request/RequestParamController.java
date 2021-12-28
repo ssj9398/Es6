@@ -89,6 +89,7 @@ public class RequestParamController {
     @ResponseBody
     @RequestMapping("/model-attribute-v2")
     public String modelAttributeV2(HelloData helloData){
+        System.out.println("aaaaa");
         log.info("username={}, age={}", helloData.getUsername(), helloData.getAge());
         log.info("helloData={}",helloData);
 
