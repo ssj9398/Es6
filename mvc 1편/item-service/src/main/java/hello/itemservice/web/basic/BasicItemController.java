@@ -27,6 +27,13 @@ public class BasicItemController {
         return "basic/items";
     }
 
+    @GetMapping("/{itemId}")
+    public String itemList(@PathVariable Long itemId, Model model){
+        Item item = itemRepository.findById(itemId);
+        model.addAttribute("item",item);
+        return "basic/item";
+    }
+
     /**
      * 테스트용 데이터
      */
